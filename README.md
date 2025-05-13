@@ -1,8 +1,5 @@
-# Paper Selecion: Li et al. - 2020 - Rethinking the Hyperparameters for Fine-tuning
+DATA425A2/
 
-# GitHub repo layout
-Assignment2-Reproducibility/
-│
 ├── report/                     # 写作区
 │   └── report.md / report.Rmd / report.tex / report.docx
 │
