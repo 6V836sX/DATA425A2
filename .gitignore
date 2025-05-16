@@ -1,6 +1,36 @@
-__pycache__/
+# 忽略 Jupyter Notebook 的自动检查点
 .ipynb_checkpoints/
+
+# 忽略 Google Colab 生成的缓存和 metadata
 *.pyc
+*.pyo
+*.swp
 .DS_Store
-.env/
+__pycache__/
+
+# 忽略模型文件和权重
+*.h5
 *.ckpt
+*.pth
+*.pt
+*.onnx
+
+# 忽略数据集文件（特别是 CUB-200-2011）
+data/CUB_200_2011/
+data/*.tgz
+data/*.zip
+data/*.tar.gz
+
+# 忽略图像缓存或中间可视化结果（如 TensorBoard）
+logs/
+figures/*.png
+figures/*.pdf
+
+# 忽略 Colab 挂载路径（以防复制进来）
+/content/drive/
+
+# 忽略环境文件（如虚拟环境）
+.env/
+.venv/
+env/
+venv/
