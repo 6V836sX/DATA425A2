@@ -1,0 +1,39 @@
+# --------------------
+# 设置换行符风格
+# --------------------
+
+# 所有文本文件强制使用 Unix LF 换行符
+* text=auto eol=lf
+
+# --------------------
+# 明确指定文件类型
+# --------------------
+
+# Jupyter Notebook 视为文本（便于 diff）
+*.ipynb text
+
+# Markdown 和代码文件始终视为 UTF-8 文本
+*.md     text
+*.py     text
+*.sh     text
+*.yml    text
+*.json   text
+
+# PDF 和图像文件设置为 binary
+*.pdf    binary
+*.png    binary
+*.jpg    binary
+*.jpeg   binary
+*.svg    binary
+
+# 模型文件和压缩包设为 binary（禁止 diff）
+*.h5     binary
+*.pt     binary
+*.ckpt   binary
+*.zip    binary
+*.tar.gz binary
+*.tgz    binary
+
+# TensorBoard 日志、临时缓存等
+*.log    text
+*.tmp    text
