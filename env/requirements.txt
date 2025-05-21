@@ -1,1 +1,11 @@
-# pip requirements
+tensorflow==2.16.2
+tensorflow-datasets
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+tqdm
+tensorboard
+jupyter
+notebook
